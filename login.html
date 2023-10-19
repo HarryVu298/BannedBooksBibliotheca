@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Login and Registration Page</title>
+        <!-- Importing the styles for the login and registration form -->
+        <link rel="stylesheet" href="login_style.css">
+        <script>
+            // This function sets the form action attribute based on the action parameter
+            // form: the form element whose action attribute needs to be set
+            // action: the target URL to which the form should be submitted
+            function setFormAction(form, action) {
+                form.setAttribute('action', action);
+            }
+        </script>
+    </head>
+    <body>
+        <!-- The container for the login and registration form -->
+        <div id="container">
+            <!-- The login and registration form with POST method -->
+            <form id="userForm" method="post">
+                <!-- Username input field -->
+                <label for="username">Username</label>
+                <input type="text" name="username" required>
+                <!-- Password input field -->
+                <label for="password">Password</label>
+                <input type="password" name="password" required>
+                <!-- Container for login and register buttons -->
+                <div id="lower">
+                    <!-- Login button - sets form action to login_process.php and submits -->
+                    <input type="submit" name="login" value="Login" onclick="setFormAction(document.getElementById('userForm'), 'backend/loginCode/login_process.php')">
+                    <!-- Register button - sets form action to register_process.php and submits -->
+                    <input type="submit" name="register" value="Register" onclick="setFormAction(document.getElementById('userForm'), 'backend/loginCode/register_process.php')">
+                </div>
+            </form>
+        </div>
+        <!-- Importing the JavaScript file for form validation and URL parameter handling -->
+        <script src="scripts/login.js"></script>
+    </body>
+</html>

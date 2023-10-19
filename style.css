@@ -1,0 +1,172 @@
+h1 {
+    text-align: center;
+    margin: 30px 30px 30px 30px;
+}
+h6 {
+    text-align: center;
+  }
+  
+  button {
+    align-content: center;
+  }
+  
+  div {
+    float: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+ table, th, td {
+  border: 1px solid;
+  text-align: center;
+}
+  table {
+  border-width: 0px;
+  width: 90%;
+  margin: 1% 5% 1% 5%;
+}
+
+thead tr th {
+  
+  border-color: white;
+  border-radius: 10%;
+  padding-left: 7px;
+  padding-right: 7px;
+  word-wrap: break-word;
+}
+
+thead tr th:nth-child(1), thead tr th:nth-child(2), thead tr th:nth-child(3), thead tr th:nth-child(4) {
+  border-right: 2px solid rgb(121, 121, 121);
+}
+thead tr th:nth-child(5), thead tr th:nth-child(6) {
+  border-right: 2px solid rgb(121, 121, 121);
+}
+
+tbody {
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-color: white;
+}
+
+tbody tr {
+  background-color: rgb(228, 226, 226);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+tbody tr {
+  border-color: white;
+}
+
+tbody tr td {
+  border-width: 0px;
+  word-wrap: break-word;
+}
+  
+  h3 {
+      text-align: center;
+  }
+  
+  .center {
+      text-align: center;
+  }
+  
+  img {
+      width: 100px;
+  }
+  
+  h6.subpage {
+	color : #FFFFFF;
+      font-family: 'Verdana',
+      sans-serif;
+      font-size: 14px;
+      letter-spacing: 0px;
+      line-height: 1;
+	  margin: 0px 15px 0px;
+	  text-align: center;
+  }
+ 
+  h1.subpage {
+      font-family: 'Helvetica Neue',
+      serif;
+      font-size: 80px;
+      letter-spacing: -1px;
+      line-height: 1;
+      text-align: center;
+      color: #3D4659;
+      margin: 0px 0 15px;
+      padding: 0 0 20px;
+  }
+  
+  h1.frontpage {
+      font-family: 'Helvetica Neue',
+      serif;
+      font-size: 125px;
+      letter-spacing: -1px;
+      line-height: 1;
+      text-align: center;
+      color: #3D4659;
+      margin: 0px 0 15px;
+      padding: 0 0 20px;
+  }
+  
+  h2.frontpage {
+      font-family: 'Verdana',
+      sans-serif;
+      font-size: 32px;
+      letter-spacing: -1px;
+      line-height: 1;
+      text-align: center;
+      color: #3D4659;
+      margin: 15px 0 15px;
+      padding: 10px;
+  }
+  
+  h3.frontpage {
+      font-family: 'Helvetica Neue',
+      sans-serif;
+      font-size: 22px;
+      line-height: 1;
+      text-align: center;
+      color: #3D4659;
+      margin: 15px 0 15px;
+      padding: 10px;
+  }
+  
+  .my-4.frontpage {
+      padding: 30px;
+  }
+  
+  .btn-light.frontpage  {
+      background-color: #EEEEEE !important;
+      color: #C79856;
+  }
+  
+  .btn-primary.frontpage {
+      background-color: #DBA04D !important;
+      color: #EEEEEE;
+  }
+  
+  
+  .bg-primary.frontpage {
+      background-color: #DBA04D! important;
+  }
+  
+  
+  .jumbotron{
+    background: 
+      linear-gradient(
+        rgba(199, 152, 86, 0.0),
+        rgba(222, 222, 222, 0.50)
+      );
+      
+    background-image : url('images/book1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+  }
+
+  
